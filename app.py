@@ -4,7 +4,7 @@ from flask_cors import CORS
 import os
 import json
 
-app = Flask(__name__, static_folder='../frontend/build')
+app = Flask(__name__, static_folder='/frontend/build')
 CORS(app)
 
 # Mock data for demonstration
